@@ -5,9 +5,10 @@ public class Hello
         int y = 20;
         if(a>y)
    System.out.println(a);
+  System.out.println(hii);
    else
    System.out.println(y);
-        
+   System.out.println("thanks");
     }
     
 }
