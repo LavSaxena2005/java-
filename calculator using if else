@@ -1,0 +1,38 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("ENTER A FIRST NUMBER");
+        double a = sc.nextDouble();
+        System.out.print("ENTER A SECOND NUMBER");
+        double b = sc.nextDouble();
+        sc.nextLine();
+        System.out.println(" Choose a operator");
+        System.out.println("addition");
+        System.out.println("subtract");
+        System.out.println("multiply");
+        System.out.println("divide");
+         System.out.println("modulo");
+         String choice = sc.nextLine();
+if (choice.equals ("addition")){
+    System.out.println("result = "+ (a+b));
+}
+ else if  (choice.equals ( "subtract")){
+    System.out.println("result = "+ (a-b));
+}
+else  if (choice.equals ("multiply")){
+    System.out.println("result ="+ (a*b));
+}
+else if (choice.equals ("divide")){
+    System.out.println("result ="+ (a/b));
+}
+else if (choice.equals ("modulo")){
+    System.out.println("result ="+(a%b));
+}
+else{
+    System.out.println("invald input");
+}
+       
+    }
+}
